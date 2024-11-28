@@ -1,0 +1,54 @@
+body {
+    background-color: #f7f9fc;
+    font-family: Arial, sans-serif;
+}
+
+.donation-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-header {
+    background-color: #0056b3;
+    color: white;
+    font-weight: bold;
+}
+
+.card-header h5 {
+    margin: 0;
+}
+
+.btn-outline-primary {
+    border-color: #0056b3;
+    color: #0056b3;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+#pix-key {
+    font-size: 1.1em;
+}
+
+.card-body img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}

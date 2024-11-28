@@ -1,0 +1,36 @@
+.background-section {
+    background-image: url('/assets/img/imagem-doacao.jpeg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Centralizar o conteúdo da página */
+.content-wrapper {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para os cards */
+.card {
+    border: none;
+    text-align: center;
+}
+
+.card h4 {
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+/* Ajuste de formulário */
+.form-container {
+    max-width: 400px;
+}
